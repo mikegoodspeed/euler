@@ -1,4 +1,1 @@
-count = 0
-for i in range(1, 1001):
-    count += i ** i
-print str(count)[-10:]
+print str(sum([x ** x for x in range(1, 1001)]))[-10:]
